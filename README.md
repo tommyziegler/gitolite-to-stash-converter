@@ -1,6 +1,8 @@
 # gitolite-to-stash-converter
 Small bash script which converts all Repos from a Gitolite or any other Git Server to a new Stash instance.
 
+Blogarticle: http://tommyziegler.com/how-to-migrate-gitolite-or-other-git-server-repos-to-stash-automatic/
+
 Copy the repository:
 ```
  $ git clone https://github.com/tommyziegler/gitolite-to-stash-converter.git
@@ -23,3 +25,5 @@ Run the script:
  $ chmod +x start.sh
  $ ./start.sh
 ```
+
+Tested with Atlassian Stash v3.6.0
